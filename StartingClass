@@ -8,6 +8,10 @@ import java.awt.event.KeyListener;
 
 public class StartingClass extends Applet implements Runnable, KeyListener{
 	
+	private Shape shape1, shape2, shape3, shape4; 
+	private Image image, firstShape, secondShape, thirdShape, fourthShape; 
+	private Grapics second; 
+	private URL base; 
 	private static Background bg1, bg2;
 	
 	@Override
