@@ -2,6 +2,7 @@ package hackathongame;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Random;
 
 public class ObjectToCompare implements ActionListener{
 	private int centerX = 100;
@@ -11,7 +12,8 @@ public class ObjectToCompare implements ActionListener{
 	
 	public void update() {
 		//update base image
-		if()
+		 Random randomGenerator = new Random();
+		 
 	}
 
 
