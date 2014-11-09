@@ -1,0 +1,34 @@
+package hackathongame
+
+import java.awt.Graphics; 
+
+public class Shape { 
+
+private int centerX; 
+private int centerY; 
+private int shapeValue; //the shape number 
+
+public int getCenterX() { 
+  return centerX; 
+  }
+  
+public int getCenterY() { 
+  return centerY; 
+  } 
+  
+public int getShapeValue() { 
+  return shapeValue; 
+  } 
+  
+public void setCenterX(int centerx) { 
+  this.centerX = centerx; 
+  } 
+  
+public void setCenterY(int centery) { 
+  this.centerY = centery; 
+  } 
+  
+public void setShapeValue(int shapeVal) { 
+  this.shapeValue = shapeVal; 
+  } 
+
